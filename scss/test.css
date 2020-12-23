@@ -1,0 +1,247 @@
+.maket .btn .ccover, .maket .btn .scover, .maket .btn .xcover, .maket .btn .tcover {
+  position: absolute;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: 0 1px 0 3px #3b3838;
+}
+
+.maket .dot3, .maket .dot2, .maket .dot {
+  font-size: 30px;
+  position: absolute;
+}
+
+body {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.maket {
+  border: 2px solid #4B4453;
+  padding: 87px;
+  margin-top: 100px;
+  border-radius: 50px 50px 60px 60px;
+  position: relative;
+  background-color: mediumseagreen;
+  border-bottom: none;
+}
+.maket .dot {
+  top: 45px;
+  left: 176px;
+}
+.maket .dot2 {
+  top: 51px;
+  left: 180px;
+}
+.maket .dot3 {
+  top: 57px;
+  left: 185px;
+}
+.maket .r1 {
+  border: 3px solid black;
+  position: absolute;
+  top: -7px;
+  left: 31px;
+  width: 42px;
+  height: 1px;
+  background-color: black;
+  border-radius: 30px 30px 0 5px;
+}
+.maket .l1 {
+  border: 3px solid black;
+  position: absolute;
+  top: -7px;
+  right: 31px;
+  width: 42px;
+  height: 1px;
+  background-color: black;
+  border-radius: 30px 40px 0 5px;
+}
+.maket .screen {
+  border: 2px solid black;
+  padding: 20px;
+  width: 150px;
+  height: 48px;
+  position: absolute;
+  top: 0px;
+  left: 160px;
+  margin-left: -60px;
+  background-color: #0a0a0a;
+  border-radius: 5px 5px 20px 20px;
+}
+.maket .right-analog {
+  border: 1px solid black;
+  border-radius: 50%;
+  color: #4B4453;
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  bottom: 150px;
+  right: 82px;
+  box-shadow: 0px 1px 0px 3px black;
+  background-color: #4B4453;
+}
+.maket .right-analog .rbut {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 17px;
+  right: 17px;
+  background-color: black;
+  box-shadow: 0px 0px 0px 2px dimgrey;
+}
+.maket .left-analog {
+  border: 1px solid black;
+  border-radius: 50%;
+  color: #4B4453;
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  bottom: 150px;
+  left: 78px;
+  box-shadow: 0px 1px 0px 3px black;
+  background-color: #4B4453;
+}
+.maket .left-analog .lbut {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 17px;
+  left: 17px;
+  background-color: black;
+  box-shadow: 0px 0px 0px 2px dimgrey;
+}
+.maket .logo {
+  position: absolute;
+  bottom: 170px;
+  left: 186px;
+}
+.maket .logo i {
+  position: absolute;
+  color: white;
+  font-size: 27px;
+  left: -4px;
+  top: -25px;
+  box-shadow: 0px 0px 0px 2px dimgrey;
+  border-radius: 50%;
+  background-color: black;
+}
+.maket .option {
+  position: absolute;
+  border: 1px solid black;
+  height: 20px;
+  width: 10px;
+  border-radius: 5px;
+  top: 4px;
+  left: 83px;
+  background-color: #4B4453;
+}
+.maket .select {
+  position: absolute;
+  border: 1px solid black;
+  height: 20px;
+  width: 10px;
+  border-radius: 5px;
+  top: 4px;
+  right: 85px;
+  background-color: #4B4453;
+}
+.maket .rlud {
+  position: absolute;
+  top: 62px;
+  left: 29px;
+}
+.maket .rlud i {
+  font-size: 75px;
+  position: absolute;
+  left: -21px;
+  top: -18px;
+  box-shadow: 0 1px 0 5px #3b3838;
+  border-radius: 50%;
+}
+.maket .btn {
+  position: absolute;
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  top: 40px;
+  right: 7px;
+  box-shadow: 0 1px 0 5px #3b3838;
+}
+.maket .btn .tcover {
+  top: 3px;
+  left: 29px;
+}
+.maket .btn .tcover .triangle {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 17px solid green;
+  position: absolute;
+  top: 0px;
+  left: 2px;
+}
+.maket .btn .xcover {
+  bottom: 5px;
+  left: 29px;
+}
+.maket .btn .xcover .x {
+  color: #616196;
+  font-weight: bold;
+  padding: 5px;
+}
+.maket .btn .scover {
+  top: 28px;
+  left: 4px;
+}
+.maket .btn .scover .square {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #752275;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+.maket .btn .ccover {
+  top: 28px;
+  right: 4px;
+}
+.maket .btn .ccover .circle {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #912121;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 50%;
+}
+.maket .borier {
+  border: 1px solid #4B4453;
+  position: relative;
+  background-color: white;
+  width: 231px;
+  height: 143px;
+  bottom: -89px;
+  left: -2px;
+  border-radius: 40px 40px 10px 10px;
+  border-bottom-style: none;
+}
+.maket .charge {
+  border: 3px solid black;
+  position: absolute;
+  bottom: 140px;
+  right: 181px;
+  width: 25px;
+  height: 1px;
+  background-color: black;
+  border-radius: 30px 40px 0 5px;
+}
+/*# sourceMappingURL=test.css.map */
